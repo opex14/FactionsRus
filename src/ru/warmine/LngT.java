@@ -1,6 +1,7 @@
 package ru.warmine;
 
 public class LngT {
+	//Main
 	public static final String MAIN_DESC = "Описание";
 	public static final String MAIN_FAGE = "Возраст";
 	public static final String MAIN_FLAG = "Флаги";
@@ -42,57 +43,29 @@ public class LngT {
 	public static final String MAIN_CTER = "<b>You can't use \"<h>/%s<b>\" in %s territory.";
 	public static final String MAIN_PBLD = "<b>It is painful to build in the territory of %s<b>.";
 	
+	//CMDS
+	// f create
+	public static final String CMD_CREATE_USED = "<b>Название занято.";
+	public static final String CMD_CREATE_CRE = "<i>Вы создали фракцию %s";
+	public static final String CMD_CREATE_CAN = "Теперь вы можете: ";
+	public static final String CMD_CREATE_GLOBAL = " создал новую фракцию: ";
+	
+	//f desc
+	public static final String CMD_DESC_SET = "<i>%s <i>сменил девиз вашей фракции на:\n%s";
 	
 	
+	public static final String CMD_DISBAND_PERM = "<i>This faction is designated as permanent, so you cannot disband it.";
+	public static final String CMD_DISBAND_OK = "<h>%s<i> распустил вашу фракцию.";
+	public static final String CMD_DISBAND_YOU = "<i>Вы распустили <h>%s<i>.";
+	public static final String CMD_DISBAND_OK_GLOBAL = "<i>Фракция <h>%s <i>(<h>%s<i>) была распущена игроком <h>%s<i>.";
 	
+	public static final String CMD_F_HEAD = "Фракция ";
+	//Вывод с команды прописан в секции Main
+
+	public static final String CMD_FLAG_LIST_AVAL = "Available Faction Flags";
+	//Список флагов в MFlag.java
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	public static final String CMD_FLAG_ = "Фракция ";
 	
 	
 }
