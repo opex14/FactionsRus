@@ -65,7 +65,29 @@ public class LngT {
 	public static final String CMD_FLAG_LIST_AVAL = "Available Faction Flags";
 	//Список флагов в MFlag.java
 	
-	public static final String CMD_FLAG_ = "Фракция ";
+	public static final String CMD_FLAG_SET_NE = "<b>The flag <h>%s <b>is not editable.";
+	public static final String CMD_FLAG_SET_AL = "%s <i>already has %s <i>set to %s<i>.";
+	public static final String CMD_FLAG_SET_SET = "<h>%s <i>set a flag for <h>%s<i>.";
+	public static final String CMD_FLAG_SET_GLOBAL = "<h>%s <i>set a flag for <h>%s<i>.";
+	
+	public static final String CMD_FLAG_SHOW_FF = "Flag for ";
+
+	public static final String CMD_HOME_OFF = "<b>Sorry, the ability to teleport to Faction homes is disabled on this server.";
+	public static final String CMD_HOME_FOR = "home for ";
+	public static final String CMD_HOME_HOMELESS = "<b>%s <b>does not have a home.";
+	public static final String CMD_HOME_SHOULD = "<i>You should:";
+	public static final String CMD_HOME_ENEMY = "<b>You cannot teleport to %s <b>while in the territory of an enemy faction.";
+	public static final String CMD_HOME_WORLD = "<b>You cannot teleport to %s <b>while in a different world.";
+	public static final String CMD_HOME_NEAR = "<b>You cannot teleport to %s <b>while an enemy is within %f blocks of you.";
+	
+	public static final String CMD_INVITE_MEMBER = "%s<i> is already a member of %s<i>.";
+	public static final String CMD_INVITE_YOU = "%s<i> invited you to %s<i>.";
+	public static final String CMD_INVITE_INVYR = "%s<i> invited %s<i> to your faction.";
+	public static final String CMD_INVITE_CLICK = "<i>Click to <c>%s<i>.";
+	public static final String CMD_INVITE_MREM = "You might want to remove him. ";
+	public static final String CMD_INVITE_CLICKTO = "Click to ";
+	public static final String CMD_INVITE_ALREADY = "%s <i>is already invited to %s<i>.";
+	
 	
 	
 }
