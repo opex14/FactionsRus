@@ -32,7 +32,7 @@ public class LngT {
 	public static final String MAIN_DLOST = "<i>You didn't lose any power since the territory you died in works that way.";
 	public static final String MAIN_DLOSW = "<i>You didn't lose any power due to the world you died in.";
 	public static final String MAIN_YPOW = "<i>Your power is now <h>%.2f / %.2f";
-	public static final String MAIN_PVPDIS = "<i>PVP is disabled in %s.";
+	public static final String MAIN_PVPDIS = "<i>PVP запрещено в %s.";
 	public static final String MAIN_HFJ = "<i>You can't hurt other players until you join a faction.";
 	public static final String MAIN_HOFJ = "<i>You can't hurt players who are not currently in a faction.";
 	public static final String MAIN_HC = "<i>You can't hurt %s<i>.";
