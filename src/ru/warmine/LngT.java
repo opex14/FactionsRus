@@ -60,7 +60,20 @@ public class LngT {
 	public static final String PLAYER_CLAIM_OWNS = "%s<i> already owns this land.";
 	
 	//TODO Econ integration class
-	
+	public static final String ECON_BALANCE = "<a>%s's<i> balance is <h>%s<i>.";
+	public static final String ECON_LACK_WITHDRAW = "<h>%s<i> lack permission to withdraw money from <h>%s<i>.";
+	public static final String ECON_LACK_DEPOSIT = "<h>%s<i> lack permission to deposit money to <h>%s<i>.";
+	public static final String ECON_CANTAFORD = "<h>%s<b> can't afford to transfer <h>%s<b> to %s<b>.";
+	public static final String ECON_UNABLE = "Unable to transfer %s<b> to <h>%s<b> from <h>%s<b>.";
+	public static final String ECON_TRANS = "<h>%s<i> was transfered from <h>%s<i> to <h>%s<i>.";
+	public static final String ECON_GAVE = "<h>%s<i> <h>gave %s<i> to <h>%s<i>.";
+	public static final String ECON_TOOK = "<h>%s<i> <h>took %s<i> from <h>%s<i>.";
+	public static final String ECON_TRANSFROM = "<h>%s<i> transfered <h>%s<i> from <h>%s<i> to <h>%s<i>.";
+	public static final String ECON_HASCANTAFFORD = "<h>%s<i> can't afford <h>%s<i> %s.";
+	public static final String ECON_GAINED = "<h>%s<i> gained <h>%s<i> since %s did %s.";
+	public static final String ECON_LOST = "<h>%s<i> lost <h>%s<i> since %s did %s.";
+	public static final String ECON_GETFAIL = "<h>%s<i> would have gained <h>%s<i> since %s did %s, but the deposit failed.";
+	public static final String ECON_CANTAFFORDTO = "<h>%s<i> can't afford <h>%s<i> to %s.";
 	
 	//CMDS
 	// f create
