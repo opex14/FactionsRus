@@ -17,7 +17,7 @@ public class MFlag extends Entity<MFlag> implements Prioritized, Registerable, N
 	// -------------------------------------------- //
 	// CONSTANTS
 	// -------------------------------------------- //
-	
+	//это id. не переводить. листай ниже.
 	public final static transient String ID_OPEN = "open";
 	public final static transient String ID_MONSTERS = "monsters";
 	public final static transient String ID_ANIMALS = "animals";
@@ -87,7 +87,7 @@ public class MFlag extends Entity<MFlag> implements Prioritized, Registerable, N
 		getFlagInfpower();
 	}
 	
-	public static MFlag getFlagOpen() { return getCreative(PRIORITY_OPEN, ID_OPEN, ID_OPEN, "Can the faction be joined without an invite?", "Anyone can join. No invite required.", "An invite is required to join.", false, true, true); }
+	public static MFlag getFlagOpen() { return getCreative(PRIORITY_OPEN, ID_OPEN, ID_OPEN, "Можно-ли вступить в фракцию без приглашения?", "Все могут вступить без приглашения.", "Чтобы вступить необходимо приглашение.", false, true, true); }
 	public static MFlag getFlagMonsters() { return getCreative(PRIORITY_MONSTERS, ID_MONSTERS, ID_MONSTERS, "Can monsters spawn in this territory?", "Monsters can spawn in this territory.", "Monsters can NOT spawn in this territory.", false, true, true); }
 	public static MFlag getFlagAnimals() { return getCreative(PRIORITY_ANIMALS, ID_ANIMALS, ID_ANIMALS, "Can animals spawn in this territory?", "Animals can spawn in this territory.", "Animals can NOT spawn in this territory.", true, true, true); }
 	public static MFlag getFlagPowerloss() { return getCreative(PRIORITY_POWERLOSS, ID_POWERLOSS, ID_POWERLOSS, "Is power lost on death in this territory?", "Power is lost on death in this territory.", "Power is NOT lost on death in this territory.", true, false, true); }
