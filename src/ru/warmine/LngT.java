@@ -43,7 +43,21 @@ public class LngT {
 	public static final String MAIN_CTER = "<b>You can't use \"<h>/%s<b>\" in %s territory.";
 	public static final String MAIN_PBLD = "<b>It is painful to build in the territory of %s<b>.";
 	
-	//TODO MPlayer entity class
+	//MPlayer entity class
+	public static final String PLAYER_MOVED = "<i>setFactionId moved <h>%s <i>aka <h>%s <i>from <h>%s <i>aka <h>%s <i>to <h>%s <i>aka <h>%s<i>.";
+	public static final String PLAYER_REMOVE_PL = "Player ";
+	public static final String PLAYER_REMOVE_REM = " was auto-removed due to inactivity.";
+	public static final String PLAYER_LEAVE_LEADER = "<b>You must give the leader role to someone else first.";
+	public static final String PLAYER_LEAVE_NEGPOWER = "<b>You cannot leave until your power is positive.";
+	public static final String PLAYER_LEAVE_LEFT = "%s<i> left %s<i>.";
+	public static final String PLAYER_LEAVE_LOG = " left the faction: ";
+	public static final String PLAYER_LEAVE_DISBAND = "%s <i>was disbanded since you were the last player.";
+	public static final String PLAYER_LEAVE_DISBAND_ONE = "The faction ";
+	public static final String PLAYER_LEAVE_DISBAND_TWO = " was disbanded due to the last player ";
+	public static final String PLAYER_LEAVE_DISBAND_THREE = " leaving.";
+	public static final String PLAYER_CLAIM_CHUNK = "<h>%s<i> %s <h>%d <i>chunk %s<i>.";
+	public static final String PLAYER_CLAIM_CHUNKS = "<h>%s<i> %s <h>%d <i>chunks near %s<i>.";
+	public static final String PLAYER_CLAIM_OWNS = "%s<i> already owns this land.";
 	
 	//TODO Econ integration class
 	
@@ -285,4 +299,13 @@ public class LngT {
 	public static final String CMD_UNSTUCK_NOSTUCK = "<b>You don't seem to be stuck.";
 	public static final String CMD_UNSTUCK_NONEAR = "<b>No nearby chunk with %s<b> or build rights found.";
 	
+	//DENR
+	public static final String CMD_ALLYHOME_NOTALLY = " is not ally or truce for your faction!";
+	public static final String CMD_ALLYHOME_NOYOURS = "%s %sdidn't set %s home for your faction";
+	public static final String CMD_ALLYHOME_OF = " home of ";
+	public static final String CMD_SETALLYHOME_YOU = "%sYou have successfully set %s home for faction: %s";
+	public static final String CMD_SETALLYHOME_FACTION = "%s %shas just set %s home for your faction\nTo teleport use: %s/f %shome %s";
+	public static final String CMD_HISTORY_HEADER = "%s*** История транзакций, %sстраница %d%s ***";
+	public static final String CMD_HISTORY_NO = "%sЗаписей не найдено!";
+	public static final String CMD_HISTORY_PAGEINT = "%sНомер страницы должен быть положительным числом!";
 }
