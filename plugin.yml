@@ -11,79 +11,79 @@ permissions:
 # THE REAL NODES
 # -------------------------------------------- #
   factions.access: {description: manage access, with the proper fperm, default: false}
-  factions.access.faction: {description: grant faction access, with the proper fperm, default: false}
-  factions.access.player: {description: grant player access, with the proper fperm, default: false}
-  factions.access.view: {description: view access, default: false}
+  factions.access.faction: {description: Выдать доступ фракции, with the proper fperm, default: false}
+  factions.access.player: {description: Выдать доступ игроку, with the proper fperm, default: false}
+  factions.access.view: {description: Показать доступ игроков, default: false}
   factions.override: {description: enable override mode, default: false}
-  factions.claim: {description: claim faction territory, default: false}
-  factions.claim.one: {description: claim a single chunk, default: false}
-  factions.claim.auto: {description: claim as you walk around, default: false}
+  factions.claim: {description: Заприватить территорию для фракции, default: false}
+  factions.claim.one: {description: Заприватить 1 чанк для фракции, default: false}
+  factions.claim.auto: {description: Включить/выключит авто-приват при движение, default: false}
   factions.claim.fill: {description: claim by filling, default: false}
   factions.claim.square: {description: claim by square and radius, default: false}
   factions.claim.circle: {description: claim by circle and radius, default: false}
   factions.claim.all: {description: claim all faction land, default: false}
-  factions.create: {description: create new faction, default: false}
-  factions.description: {description: change faction description, default: false}
-  factions.disband: {description: disband faction, default: false}
-  factions.expansions: {description: list expansions, default: false}
-  factions.faction: {description: show faction information, default: false}
-  factions.flag: {description: manage faction flags, default: false}
-  factions.flag.list: {description: list flags, default: false}
-  factions.flag.set: {description: set flags, default: false}
-  factions.flag.show: {description: show flags, default: false}
-  factions.home: {description: teleport to faction home, default: false}
-  factions.invite: {description: manage invites, default: false}
-  factions.invite.list: {description: list invited players, default: false}
-  factions.invite.list.other: {description: list invited players of another factions, default: false}
-  factions.invite.add: {description: invite player, default: false}
-  factions.invite.remove: {description: revoke an invite, default: false}
-  factions.join: {description: join faction, default: false}
+  factions.create: {description: Создать новую фракцию, default: false}
+  factions.description: {description: Изменить описание фракции, default: false}
+  factions.disband: {description: Распустить фракцию, default: false}
+  factions.expansions: {description: Список дополнений, default: false}
+  factions.faction: {description: Показать информацию о фракции, default: false}
+  factions.flag: {description: Управление флагами для фракций, default: false}
+  factions.flag.list: {description: Список флагов, default: false}
+  factions.flag.set: {description: Выставить флаг, default: false}
+  factions.flag.show: {description: Показать флаги, default: false}
+  factions.home: {description: Телепортация домой, default: false}
+  factions.invite: {description: Управление приглашениями, default: false}
+  factions.invite.list: {description: Список приглашеных игроков, default: false}
+  factions.invite.list.other: {description: Список приглашеных игроков другой фракции, default: false}
+  factions.invite.add: {description: Пригласить игрока, default: false}
+  factions.invite.remove: {description: Забрать приглашение у игрока, default: false}
+  factions.join: {description: Присоединится к фракции, default: false}
   factions.join.others: {description: have another player join faction, default: false}
-  factions.kick: {description: kick player from faction, default: false}
-  factions.leave: {description: leave your faction, default: false}
-  factions.list: {description: list all factions, default: false}
-  factions.map: {description: show territory map, default: false}
-  factions.money: {description: manage faction money, default: false}
-  factions.money.balance: {description: show faction money, default: false}
-  factions.money.balance.any: {description: show another factions money, default: false}
-  factions.money.deposit: {description: deposit to faction, default: false}
-  factions.money.f2f: {description: transfer f --> f, default: false}
-  factions.money.f2p: {description: transfer f --> p, default: false}
-  factions.money.p2f: {description: transfer p --> f, default: false}
-  factions.money.withdraw: {description: withdraw from faction, default: false}
-  factions.motd: {description: faction motd, default: false}
-  factions.open: {description: set if invitation is required to join, default: false}
-  factions.perm: {description: change faction permissions, default: false}
-  factions.perm.list: {description: list perms, default: false}
-  factions.perm.set: {description: set perms, default: false}
-  factions.perm.show: {description: show perms, default: false}
-  factions.player: {description: show player information}
-  factions.powerboost: {description: set powerboost, default: false}
-  factions.rank: {description: manage/show ranks, default: false}
-  factions.rank.show: {description: show rank, default: false}
-  factions.rank.action: {description: change rank, default: false}
-  factions.relation: {description: set relation wish to another faction, default: false}
-  factions.seechunk: {description: see the chunk you stand in, default: false}
-  factions.seechunkold: {description: see the chunk you stand in, default: false}
-  factions.sethome: {description: set the faction home, default: false}
-  factions.setpower: {description: set power, default: false}
-  factions.status: {description: show faction status, default: false}
-  factions.name: {description: set faction name, default: false}
-  factions.title: {description: set player title, default: false}
-  factions.title.color: {description: set player title with color, default: false}
+  factions.kick: {description: Выгнать игрока из вашей фракции, default: false}
+  factions.leave: {description: Покинуть фракцию, default: false}
+  factions.list: {description: Список всех фракций, default: false}
+  factions.map: {description: Показать карту территории, default: false}
+  factions.money: {description: Управлять деньгами фракции, default: false}
+  factions.money.balance: {description: Показать деньги фракции, default: false}
+  factions.money.balance.any: {description: Показать деньги другой фракции, default: false}
+  factions.money.deposit: {description: Перевести деньги в банк фракции, default: false}
+  factions.money.f2f: {description: Перевести деньги из фракции в другую фракцию f --> f, default: false}
+  factions.money.f2p: {description: Перевести деньги из фракции игроку f --> p, default: false}
+  factions.money.p2f: {description: Перевести деньги игрока во фракцию p --> f, default: false}
+  factions.money.withdraw: {description: Забрать деньги из банка фракции, default: false}
+  factions.motd: {description: Новости дня клана, default: false}
+  factions.open: {description: Сделать фракцию открытой для других игроков, default: false}
+  factions.perm: {description: Изменить права фракции, default: false}
+  factions.perm.list: {description: Список прав, default: false}
+  factions.perm.set: {description: Установить права, default: false}
+  factions.perm.show: {description: Показать права, default: false}
+  factions.player: {description: Информация об игроке}
+  factions.powerboost: {description: Выдать бонус или штраф игроку или клану, default: false}
+  factions.rank: {description: Управление рагом, default: false}
+  factions.rank.show: {description: Показать ранг, default: false}
+  factions.rank.action: {description: Изменить ранг, default: false}
+  factions.relation: {description: Поменять отношения с другой фракцией, default: false}
+  factions.seechunk: {description: Показать чанк в котором вы стоите, default: false}
+  factions.seechunkold: {description: Показать чанк в котором вы стоите, default: false}
+  factions.sethome: {description: Установить дом для фракции, default: false}
+  factions.setpower: {description: Усановить силу для фракции, default: false}
+  factions.status: {description: Показать статус фракции, default: false}
+  factions.name: {description: Изменить название фракции, default: false}
+  factions.title: {description: Изменить титул игрока, default: false}
+  factions.title.color: {description: Изменить титутл игрока с цветом, default: false}
   factions.territorytitles: {description: toggle territory titles, default: false}
-  factions.unclaim: {description: unclaim faction territory, default: false}
-  factions.unclaim.one: {description: unclaim a single chunk, default: false}
-  factions.unclaim.auto: {description: unclaim as you walk around, default: false}
+  factions.unclaim: {description: Удалить территорию фракции, default: false}
+  factions.unclaim.one: {description: Удалить 1 территорию, default: false}
+  factions.unclaim.auto: {description: Включить/выключит авто-приват при движение, default: false}
   factions.unclaim.fill: {description: unclaim by filling, default: false}
   factions.unclaim.square: {description: unclaim by square and radius, default: false}
   factions.unclaim.circle: {description: unclaim by circle and radius, default: false}
-  factions.unclaim.all: {description: unclaim all faction land, default: false}
-  factions.unsethome: {description: unset faction home, default: false}
-  factions.unstuck: {description: teleport to nearest wilderness, default: false}
-  factions.version: {description: see plugin version, default: false}
-  factions.setallyhome: {description: set home for ally or truce faction, default: false}
-  factions.allyhome: {description: teleport to home of ally or truce faction, default: false}
+  factions.unclaim.all: {description: Удалить все территории фракции, default: false}
+  factions.unsethome: {description: Удалить дом фракции, default: false}
+  factions.unstuck: {description: Телепортироваться на ближайшую свободную территорию, default: false}
+  factions.version: {description: Посмотреть версию плагина, default: false}
+  factions.setallyhome: {description: Установить дом для союзной фракции, default: false}
+  factions.allyhome: {description: Телепортироваться на дом союзной фракции, default: false}
 # -------------------------------------------- #
 # STAR NOTATION
 # -------------------------------------------- #
