@@ -19,7 +19,7 @@ public class LngT {
 	public static final String MAIN_CDIS = "<b>Land claiming is disabled in <h>%s<b>.";
 	public static final String MAIN_CMEM = "<b>Factions must have at least <h>%s<b> members to claim land.";
 	public static final String MAIN_CMAX = "<b>Достигнут предел. Вы не можете захватить больше земли";
-	public static final String MAIN_CPOW = "<b>Недостаточно силы для захваты территории.";
+	public static final String MAIN_CPOW = "<b>Недостаточно силы для захвата территории.";
 	public static final String MAIN_CCONE = "<b>You can only claim additional land which is connected to your first claim or controlled by another faction!";
 	public static final String MAIN_CCON = "<b>You can only claim additional land which is connected to your first claim!";
 	public static final String MAIN_COTH = "<b>You may not claim land from others.";
