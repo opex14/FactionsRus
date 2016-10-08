@@ -238,25 +238,25 @@ public class LngT {
 	public static final String CMD_RANK_OF = "of";
 	public static final String CMD_RANK_IN = "in";
 	public static final String CMD_RANK_FLESS = "%s <i>%s без фракции";
-	public static final String CMD_RANK_CANNOTREMOVELEAD = "<b>You cannot remove the present leader. Demote them first.";
-	public static final String CMD_RANK_WASMOVED = "%s <i>was moved from <i>%s to <i>%s<i>.";
-	public static final String CMD_RANK_MOVEDLOG = "%s moved %s from %s to %s.";
-	public static final String CMD_RANK_YOUDEMOTED = "<i>You have been demoted from the position of faction leader by %s<i>.";
-	public static final String CMD_RANK_ADMIN = "A server admin";
-	public static final String CMD_RANK_GAVE = "%s<i> gave %s<i> the leadership of %s<i>.";
-	public static final String CMD_RANK_TARGETDEMOTED = "<i>The target was a leader and got demoted. The faction disbanded and no rank was set.";
+	public static final String CMD_RANK_CANNOTREMOVELEAD = "<b>Вы не можете понизить лидера фракции.";
+	public static final String CMD_RANK_WASMOVED = "%s <i>был отправлен из <i>%s в <i>%s<i>.";
+	public static final String CMD_RANK_MOVEDLOG = "%s отправлен %s из %s в %s.";
+	public static final String CMD_RANK_YOUDEMOTED = "<i>Вас понизил с позиции лидера фракции %s<i>.";
+	public static final String CMD_RANK_ADMIN = "Администратор сервера";
+	public static final String CMD_RANK_GAVE = "%s<i> выдал %s<i> главу фракции %s<i>.";
+	public static final String CMD_RANK_TARGETDEMOTED = "<i>Лидер фракции был понижен. И фракция была распущена.";
 	public static final String CMD_RANK_DEMOTED = "demoted";
 	public static final String CMD_RANK_PROMOTED = "promoted";
 	public static final String CMD_RANK_WERE = "were";
 	public static final String CMD_RANK_WAS = "was";
 	public static final String CMD_RANK_FROM = "%s<i> %s %s from %s to <h>%s <i>in %s<i>.";
 	
-	public static final String CMD_RELATION_YOURSELF = "<b>Nope! You can't declare a relation to yourself :)";
-	public static final String CMD_RELATION_ALREADY = "<b>You already have that relation wish set with %s.";
-	public static final String CMD_RELATION_ISNOW = "%s<i> is now %s."; //2X
-	public static final String CMD_RELATION_WISHES = "%s<i> wishes to be %s. ";
-	public static final String CMD_RELATION_INFORMED = "%s<i> were informed that you wish to be %s<i>.";
-	public static final String CMD_RELATION_PEACEFUL = "<i>This will have no effect while your faction is peaceful.";
+	public static final String CMD_RELATION_YOURSELF = "<b>Нет! Вы не можете установить отношения с вашей фракцией :)";
+	public static final String CMD_RELATION_ALREADY = "<b>Вы уже установили данные отношения с %s.";
+	public static final String CMD_RELATION_ISNOW = "%s<i> теперь %s."; //2X
+	public static final String CMD_RELATION_WISHES = "%s<i> желают быть с вами %s. ";
+	public static final String CMD_RELATION_INFORMED = "%s<i> были проинформированы что вы желаете стать %s<i>.";
+	public static final String CMD_RELATION_PEACEFUL = "<i>Это не будет иметь никакого эффекта в то время как ваша фракция носит мирный характер.";
 
 	public static final String CMD_SC_ON = "<g>ON";
 	public static final String CMD_SC_OFF = "<b>OFF";
@@ -268,8 +268,8 @@ public class LngT {
 	public static final String CMD_CLAIMER_ALL_CHUNKS = "<h>%s<i> %s <h>%d <i>chunks using "; //2x
 	public static final String CMD_CLAIMER_ALL_WHICH = "<b>You must specify which map from console.";
 	
-	public static final String CMD_CLAIMER_AUTO_DISABLED = "<i>Disabled auto-setting as you walk around.";
-	public static final String CMD_CLAIMER_AUTO_ENABLED = "<i>Now auto-setting <h>%s<i> land.";
+	public static final String CMD_CLAIMER_AUTO_DISABLED = "<i>Автоматический приват земель был отключен.";
+	public static final String CMD_CLAIMER_AUTO_ENABLED = "<i>Автоматический приват <h>%s<i> земель включен.";
 
 	public static final String CMD_CLAIMER_FILL_CHUNK = "<h>%s<i> %s <h>%d <i>chunk %s<i> using fill.";
 	public static final String CMD_CLAIMER_FILL_CHUNKS = "<h>%s<i> %s <h>%d <i>chunks near %s<i> using fill.";
