@@ -16,21 +16,21 @@ public class LngT {
 	public static final String MAIN_REL = "<a>Отношения: %s%s<a> (%d):";
 	public static final String MAIN_PLON = "<a>Игроки онлайн (%s):";
 	public static final String MAIN_PLOFF = "<a>Игроки офлайн (%s):";
-	public static final String MAIN_CDIS = "<b>Land claiming is disabled in <h>%s<b>.";
+	public static final String MAIN_CDIS = "<b>Приват земель выключен в <h>%s<b>.";
 	public static final String MAIN_CMEM = "<b>В клане должно быть минимум <h>%s<b> чтобы захватить территорию.";
 	public static final String MAIN_CMAX = "<b>Достигнут предел. Вы не можете захватить больше земли";
 	public static final String MAIN_CPOW = "<b>Недостаточно силы для захвата территории.";
-	public static final String MAIN_CCONE = "<b>You can only claim additional land which is connected to your first claim or controlled by another faction!";
-	public static final String MAIN_CCON = "<b>You can only claim additional land which is connected to your first claim!";
+	public static final String MAIN_CCONE = "<b>Вы можете заприватить новую территорию, если она соединена с вашим основным приватом или под контролем другого клана!";
+	public static final String MAIN_CCON = "<b>Вы можете заприватить новую территорию если она соединена с вашим основным приватом!";
 	public static final String MAIN_COTH = "<b>Вы не можете захватывать территорию других кланов.";
 	public static final String MAIN_CREL = "<b>Вы не можете захватить эту территорию из-за дружественных отношений с данной фракцией.";
-	public static final String MAIN_CSTR = "%s<i> owns this land and is strong enough to keep it.";
+	public static final String MAIN_CSTR = "%s<i> достаточно сильны для удерживания данной территории.";
 	public static final String MAIN_CBOR = "<b>Вы должны начинать захват территории с края привата.";
 	public static final String MAIN_AST = "<i>У вас стандартные права на этой территории.";
-	public static final String MAIN_AEL = "<g>You have elevated access to this area.";
+	public static final String MAIN_AEL = "<g>У вас есть полный доступ к данной территории.";
 	public static final String MAIN_AED = "<b>У вас нет прав на данной территории.";
 	public static final String MAIN_DLOST = "<i>Вы не теряете силу умирая на данной территории.";
-	public static final String MAIN_DLOSW = "<i>You didn't lose any power due to the world you died in.";
+	public static final String MAIN_DLOSW = "<i>Вы не теряете силу умирая в данном мире.";
 	public static final String MAIN_YPOW = "<i>Теперь ваша сила <h>%.2f / %.2f";
 	public static final String MAIN_PVPDIS = "<i>PVP запрещено в %s.";
 	public static final String MAIN_HFJ = "<i>Вы не можете атаковать других игроков, пока не вступите в клан.";
@@ -41,7 +41,7 @@ public class LngT {
 	public static final String MAIN_EDR = "<i>Урон по врагу снижен на <rose>%s<i>.";
 	public static final String MAIN_YCUP = "<b>Вы не можете использовать \"<h>/%s<b>\" как член фракции.";
 	public static final String MAIN_CTER = "<b>Вы не можете использовать \"<h>/%s<b>\" на %s территории.";
-	public static final String MAIN_PBLD = "<b>It is painful to build in the territory of %s<b>.";
+	public static final String MAIN_PBLD = "<b>Это больно стоить на данной территории %s<b>.";
 	
 	//MPlayer entity class
 	public static final String PLAYER_MOVED = "<i>setFactionId moved <h>%s <i>aka <h>%s <i>from <h>%s <i>aka <h>%s <i>to <h>%s <i>aka <h>%s<i>.";
@@ -52,8 +52,8 @@ public class LngT {
 	public static final String PLAYER_LEAVE_LEFT = "%s<i> Покинул %s<i>.";
 	public static final String PLAYER_LEAVE_LOG = " Покинул клан: ";
 	public static final String PLAYER_LEAVE_DISBAND = "%s <i>Фракция была распущена, так как вы были последним игроком.";
-	public static final String PLAYER_LEAVE_DISBAND_ONE = "Клан ";
-	public static final String PLAYER_LEAVE_DISBAND_TWO = " was disbanded due to the last player ";
+	public static final String PLAYER_LEAVE_DISBAND_ONE = "Фракция ";
+	public static final String PLAYER_LEAVE_DISBAND_TWO = " была распущена из-за последниго игрока ";
 	public static final String PLAYER_LEAVE_DISBAND_THREE = " Покидает.";
 	public static final String PLAYER_CLAIM_CHUNK = "<h>%s<i> %s <h>%d <i>chunk %s<i>.";
 	public static final String PLAYER_CLAIM_CHUNKS = "<h>%s<i> %s <h>%d <i>chunks near %s<i>.";
@@ -169,75 +169,75 @@ public class LngT {
 	public static final String CMD_KICK_FROMF = " из фракции ";
 	
 	public static final String CMD_LIST_FLIST = "Список Фракций";
-	public static final String CMD_LIST_FLESS = "<i>Factionless<i> %d online";
-	public static final String CMD_LIST_RSTR = "%s<i> %d/%d online, %d/%d/%d";
+	public static final String CMD_LIST_FLESS = "<i>Factionless<i> %d онлайн";
+	public static final String CMD_LIST_RSTR = "%s<i> %d/%d онлайн, %d/%d/%d";
 	
-	public static final String CMD_MAP_ON = "<i>Map auto update <green>ENABLED.";
-	public static final String CMD_MAP_OFF = "<i>Map auto update <red>DISABLED.";
+	public static final String CMD_MAP_ON = "<i>Автоматическое обновление карты <green>ВКЛЮЧЕНО.";
+	public static final String CMD_MAP_OFF = "<i>Автоматическое обновление карты <red>ВЫКЛЮЧЕНО.";
 	
 	//MONEY LOGS
-	public static final String CMD_MONEY_DEPOSITE = "%s deposited %s in the faction bank: %s";
-	public static final String CMD_MONEY_TRANSFERFF = "%s transferred %s from the faction \"%s\" to the faction \"%s\"";
-	public static final String CMD_MONEY_TRANSEFFP = "%s transferred %s from the faction \"%s\" to the player \"%s\"";
-	public static final String CMD_MONEY_TRANSEFPF = "%s transferred %s from the player \"%s\" to the faction \"%s\"";
-	public static final String CMD_MONEY_WITHDRAW = "%s withdrew %s from the faction bank: %s";
+	public static final String CMD_MONEY_DEPOSITE = "%s вложил %s в банк фракции: %s";
+	public static final String CMD_MONEY_TRANSFERFF = "%s перевел %s из фракции \"%s\" в фракцию \"%s\"";
+	public static final String CMD_MONEY_TRANSEFFP = "%s перевел %s из фракции \"%s\" игроку \"%s\"";
+	public static final String CMD_MONEY_TRANSEFPF = "%s перевел %s от игрока \"%s\" в фракцию \"%s\"";
+	public static final String CMD_MONEY_WITHDRAW = "%s снял %s из банка фракции: %s";
 
-	public static final String CMD_MOTD_NO = "<silver>nothing";
-	public static final String CMD_MOTD_ALREADY = "<i>The motd for %s <i>is already: <h>%s";
-	public static final String CMD_MOTD_SET = "<i>%s <i>set your faction motd to:\n%s";
+	public static final String CMD_MOTD_NO = "<silver>ничего";
+	public static final String CMD_MOTD_ALREADY = "<i>Новости дня %s <i>уже имеются: <h>%s";
+	public static final String CMD_MOTD_SET = "<i>%s <i>установил новости дня:\n%s";
 	
-	public static final String CMD_NAME_TAKEN = "<b>That name is already taken";
-	public static final String CMD_NAME_CHANGED = "%s<i> changed your faction name to %s";
-	public static final String CMD_NAME_YOUCHANGED = "<i>You changed the faction name to %s";
+	public static final String CMD_NAME_TAKEN = "<b>Это название уже занято";
+	public static final String CMD_NAME_CHANGED = "%s<i> изменил название фракции на %s";
+	public static final String CMD_NAME_YOUCHANGED = "<i>Вы изменили название фракции на %s";
 
-	public static final String CMD_OVERRIDE_ENABLED = "<g>ENABLED";
-	public static final String CMD_OVERRIDE_DISABLED = "<b>DISABLED";
-	public static final String CMD_OVERRIDE_PMSG = "<i>%s %s <i>override mode.";
+	public static final String CMD_OVERRIDE_ENABLED = "<g>ВКЛЮЧЕНО";
+	public static final String CMD_OVERRIDE_DISABLED = "<b>ВЫКЛЮЧЕНО";
+	public static final String CMD_OVERRIDE_PMSG = "<i>%s %s <i>режим администратора фракции.";
 
-	public static final String CMD_PERM_LIST_AVAIL = "Available Faction Perms";
-	public static final String CMD_PERM_SET_NOTEDIT = "<b>The perm <h>%s <b>is not editable.";
-	public static final String CMD_PERM_SET_ALREADY = "%s <i>already has %s <i>set to %s <i>for %s<i>.";
+	public static final String CMD_PERM_LIST_AVAIL = "Доступные права фракций";
+	public static final String CMD_PERM_SET_NOTEDIT = "<b>Права <h>%s <b>не могут быть отредактированы.";
+	public static final String CMD_PERM_SET_ALREADY = "%s <i>уже %s <i>установлены %s <i>для %s<i>.";
 	public static final String CMD_PERM_SET_YES = "<g>YES";
 	public static final String CMD_PERM_SET_NO = "<b>NOO";
 	public static final String CMD_PERM_SET_PERMFOR = "Perm for ";
 	public static final String CMD_PERM_SET_SETPERM = "<h>%s <i>set a perm for <h>%s<i>.";
 	
-	public static final String CMD_PLAYER_HEADER = "Player ";
-	public static final String CMD_PLAYER_POWERBAR = "<a>Power: <v>%s";
-	public static final String CMD_PLAYER_POWERTXT = "<a>Power: <v>%.2f / %.2f";
-	public static final String CMD_PLAYER_BOOST = "bonus";
-	public static final String CMD_PLAYER_PENALTY = "penalty";
-	public static final String CMD_PLAYER_POWERBOOST = "<a>Power Boost: <v>%f <i>(a manually granted %s)";
-	public static final String CMD_PLAYER_LEFTMAX = " <i>(%s <i>left till max)";
-	public static final String CMD_PLAYER_POWERHOUR = "<a>Power per Hour: <v>%.2f%s";
-	public static final String CMD_PLAYER_POWERDEATH = "<a>Power per Death: <v>%.2f";
-	public static final String CMD_PLAYER_AUTOREMOVE = "<i>Automatic removal after %s <i>of inactivity:";
+	public static final String CMD_PLAYER_HEADER = "Игрок ";
+	public static final String CMD_PLAYER_POWERBAR = "<a>Сила: <v>%s";
+	public static final String CMD_PLAYER_POWERTXT = "<a>Сила: <v>%.2f / %.2f";
+	public static final String CMD_PLAYER_BOOST = "бонус";
+	public static final String CMD_PLAYER_PENALTY = "штраф";
+	public static final String CMD_PLAYER_POWERBOOST = "<a>Дополнительная сила: <v>%f <i>(a manually granted %s)";
+	public static final String CMD_PLAYER_LEFTMAX = " <i>(%s <i>до максимальной силы)";
+	public static final String CMD_PLAYER_POWERHOUR = "<a>Восстановление силы в час: <v>%.2f%s";
+	public static final String CMD_PLAYER_POWERDEATH = "<a>Потеря силы за смерть: <v>%.2f";
+	public static final String CMD_PLAYER_AUTOREMOVE = "<i>Автоматическое понижение силы после %s <i>неактивности игрока:";
 	
-	public static final String CMD_POWERBOOST_SPECIFY = "<b>You must specify \"p\" or \"player\" to target a player or \"f\" or \"faction\" to target a faction.";
+	public static final String CMD_POWERBOOST_SPECIFY = "<b>Вы должны указать \"p\" или \"player\" чтобы выделить игрока или \"f\" или \"faction\" для выделения фракции.";
 	public static final String CMD_POWERBOOST_EXAMPLE = "<b>ex. /f powerboost p SomePlayer 0.5  -or-  /f powerboost f SomeFaction -5";
-	public static final String CMD_POWERBOOST_PLAYER = "Player ";
-	public static final String CMD_POWERBOOST_FACTION = "Faction ";
-	public static final String CMD_POWERBOOST_MSG_NOWHAS = " now has a power bonus/penalty of ";
-	public static final String CMD_POWERBOOST_MSG_PLVL = " to min and max power levels.";
-	public static final String CMD_POWERBOOST_LOG_HAS = " has set the power bonus/penalty for ";
+	public static final String CMD_POWERBOOST_PLAYER = "Игрок ";
+	public static final String CMD_POWERBOOST_FACTION = "Фракция ";
+	public static final String CMD_POWERBOOST_MSG_NOWHAS = " теперь имеет бонус / фтраф ";
+	public static final String CMD_POWERBOOST_MSG_PLVL = " до минимального и максимального уровня силы.";
+	public static final String CMD_POWERBOOST_LOG_HAS = " установил бонус / фтраф силы для ";
 	public static final String CMD_POWERBOOST_LOG_TO = " to ";
 	
-	public static final String CMD_RANK_DOESNT = "%s <b>doesn't use ranks sorry :(";
-	public static final String CMD_RANK_YOURSELFT = "<b>The target player mustn't be yourself.";
-	public static final String CMD_RANK_NOTSAMEF = "%s <b>is not in the same faction as you.";
-	public static final String CMD_RANK_CANTCHG = "<b>You can't change %s's <b>faction.";
-	public static final String CMD_RANK_MUSTHIGHER = "<b>You must be <h>%s <b>or higher to change ranks.";
+	public static final String CMD_RANK_DOESNT = "%s <b>не использует систему рангов, извините :(";
+	public static final String CMD_RANK_YOURSELFT = "<b>выделенный игрок не может быть вами.";
+	public static final String CMD_RANK_NOTSAMEF = "%s <b>выделенный игрок не находится в вашей фракции.";
+	public static final String CMD_RANK_CANTCHG = "<b>вы не можете заменять %s's <b>фракции.";
+	public static final String CMD_RANK_MUSTHIGHER = "<b>Вы должны быть <h>%s <b>или выше чтобы менять ранги.";
 	public static final String CMD_RANK_CANTMANAGE = "<h>%s <b>can't manage eachother.";
-	public static final String CMD_RANK_CANTHIGHER = "<b>You can't manage people of higher rank.";
-	public static final String CMD_RANK_CANTEQUAL = "<b>You can't set ranks equal to your own.";
-	public static final String CMD_RANK_CANTSETHIGHER = "<b>You can't set ranks higher than your own.";
-	public static final String CMD_RANK_ALREADY = "%s <b>is already %s.";
+	public static final String CMD_RANK_CANTHIGHER = "<b>Вы не можете менять статус игрока выше вас по рангу.";
+	public static final String CMD_RANK_CANTEQUAL = "<b>Вы не можете повысить игрока до вашего ранга.";
+	public static final String CMD_RANK_CANTSETHIGHER = "<b>Вы больше не можете повысить данного игрока.";
+	public static final String CMD_RANK_ALREADY = "%s <b>уже %s.";
 	public static final String CMD_RANK_ARE = "are";
 	public static final String CMD_RANK_IS = "is";
 	public static final String CMD_RANK_THE = "the";
 	public static final String CMD_RANK_OF = "of";
 	public static final String CMD_RANK_IN = "in";
-	public static final String CMD_RANK_FLESS = "%s <i>%s factionless";
+	public static final String CMD_RANK_FLESS = "%s <i>%s без фракции";
 	public static final String CMD_RANK_CANNOTREMOVELEAD = "<b>You cannot remove the present leader. Demote them first.";
 	public static final String CMD_RANK_WASMOVED = "%s <i>was moved from <i>%s to <i>%s<i>.";
 	public static final String CMD_RANK_MOVEDLOG = "%s moved %s from %s to %s.";
