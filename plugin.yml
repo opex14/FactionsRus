@@ -10,7 +10,7 @@ permissions:
 # -------------------------------------------- #
 # THE REAL NODES
 # -------------------------------------------- #
-  factions.access: {description: manage access, with the proper fperm, default: false}
+  factions.access: {description: Управлять доступом, with the proper fperm, default: false}
   factions.access.faction: {description: Выдать доступ фракции, with the proper fperm, default: false}
   factions.access.player: {description: Выдать доступ игроку, with the proper fperm, default: false}
   factions.access.view: {description: Показать доступ игроков, default: false}
