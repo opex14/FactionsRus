@@ -321,4 +321,7 @@ public class LngT {
 	public static final String CMD_HISTORY_HEADER = "%s*** История транзакций, %sстраница %d%s ***";
 	public static final String CMD_HISTORY_NO = "%sЗаписей не найдено!";
 	public static final String CMD_HISTORY_PAGEINT = "%sНомер страницы должен быть положительным числом!";
+
+	
+	public static final String FC_MOTD = " - Message of the Day";
 }
