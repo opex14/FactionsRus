@@ -64,16 +64,16 @@ public class LngT {
 	public static final String ECON_LACK_WITHDRAW = "<h>%s<i> Не достаточно прав чтоб забирать деньги из <h>%s<i>.";
 	public static final String ECON_LACK_DEPOSIT = "<h>%s<i> Не достаточно прав для вклада денег <h>%s<i>.";
 	public static final String ECON_CANTAFORD = "<h>%s<b> Не достаточно денег для перевода <h>%s<b> to %s<b>.";
-	public static final String ECON_UNABLE = "Unable to transfer %s<b> to <h>%s<b> from <h>%s<b>.";
-	public static final String ECON_TRANS = "<h>%s<i> was transfered from <h>%s<i> to <h>%s<i>.";
-	public static final String ECON_GAVE = "<h>%s<i> <h>gave %s<i> to <h>%s<i>.";
-	public static final String ECON_TOOK = "<h>%s<i> <h>took %s<i> from <h>%s<i>.";
-	public static final String ECON_TRANSFROM = "<h>%s<i> transfered <h>%s<i> from <h>%s<i> to <h>%s<i>.";
-	public static final String ECON_HASCANTAFFORD = "<h>%s<i> can't afford <h>%s<i> %s.";
+	public static final String ECON_UNABLE = "Не возможно совершить транзакцию %s<b> для <h>%s<b> от <h>%s<b>.";
+	public static final String ECON_TRANS = "<h>%s<i> деньги были перенесены из <h>%s<i> для <h>%s<i>.";
+	public static final String ECON_GAVE = "<h>%s<i> <h>дал %s<i> для <h>%s<i>.";
+	public static final String ECON_TOOK = "<h>%s<i> <h>забрал %s<i> из <h>%s<i>.";
+	public static final String ECON_TRANSFROM = "<h>%s<i> совершил транзакцию <h>%s<i> из <h>%s<i> для <h>%s<i>.";
+	public static final String ECON_HASCANTAFFORD = "<h>%s<i> не достаточно средств <h>%s<i> %s.";
 	public static final String ECON_GAINED = "<h>%s<i> gained <h>%s<i> since %s did %s.";
 	public static final String ECON_LOST = "<h>%s<i> lost <h>%s<i> since %s did %s.";
 	public static final String ECON_GETFAIL = "<h>%s<i> would have gained <h>%s<i> since %s did %s, but the deposit failed.";
-	public static final String ECON_CANTAFFORDTO = "<h>%s<i> can't afford <h>%s<i> to %s.";
+	public static final String ECON_CANTAFFORDTO = "<h>%s<i> не достаточно средств <h>%s<i> для %s.";
 	
 	//CMDS
 	// f create
