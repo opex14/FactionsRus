@@ -305,19 +305,19 @@ public class LngT {
 	public static final String CMD_TITLE_CANTHIGH = "<b>Вы не можете меня титул игрока выше вас рангом.";
 	public static final String CMD_TITLE_CHANGED = "%s<i> сменил титул: %s";
 	
-	public static final String CMD_UNSETHOME_ALREADY = "<i>%s <i>does already not have a home.";
-	public static final String CMD_UNSETHOME_FMSG = "%s<i> unset the home for your faction.";
-	public static final String CMD_UNSETHOME_YOUMSG = "<i>You have unset the home for ";
+	public static final String CMD_UNSETHOME_ALREADY = "<i>%s <i>уже не имеют дома фракции.";
+	public static final String CMD_UNSETHOME_FMSG = "%s<i> удалил дом вашей фракции.";
+	public static final String CMD_UNSETHOME_YOUMSG = "<i>вы удалили дом вашей фракции ";
 	
-	public static final String CMD_UNSTUCK_NOSTUCK = "<b>You don't seem to be stuck.";
-	public static final String CMD_UNSTUCK_NONEAR = "<b>No nearby chunk with %s<b> or build rights found.";
+	public static final String CMD_UNSTUCK_NOSTUCK = "<b>Не похоже чтобы вы застряли :(";
+	public static final String CMD_UNSTUCK_NONEAR = "<b>Поблизости нету чанков с %s<b> правом на постройку.";
 	
 	//DENR
-	public static final String CMD_ALLYHOME_NOTALLY = " is not ally or truce for your faction!";
-	public static final String CMD_ALLYHOME_NOYOURS = "%s %sdidn't set %s home for your faction";
+	public static final String CMD_ALLYHOME_NOTALLY = " У вас нет мирных отношения с данной фракцией!";
+	public static final String CMD_ALLYHOME_NOYOURS = "%s %sне установили %s дом для вашей ";
 	public static final String CMD_ALLYHOME_OF = " home of ";
-	public static final String CMD_SETALLYHOME_YOU = "%sYou have successfully set %s home for faction: %s";
-	public static final String CMD_SETALLYHOME_FACTION = "%s %shas just set %s home for your faction\nTo teleport use: %s/f %shome %s";
+	public static final String CMD_SETALLYHOME_YOU = "%sВы успешно установили %s дом для фракции: %s";
+	public static final String CMD_SETALLYHOME_FACTION = "%s %sУстановили %s дом для вашей фракции\nдля телепортации напишите: %s/f %shome %s";
 	public static final String CMD_HISTORY_HEADER = "%s*** История транзакций, %sстраница %d%s ***";
 	public static final String CMD_HISTORY_NO = "%sЗаписей не найдено!";
 	public static final String CMD_HISTORY_PAGEINT = "%sНомер страницы должен быть положительным числом!";
