@@ -281,29 +281,29 @@ public class LngT {
 	//а вот и claim
 	public static final String CMD_CLAIM_CHUNK = "<h>%s<i> %s <h>%d <i>чанк %s<i>.";
 	public static final String CMD_CLAIM_CHUNKS = "<h>%s<i> %s <h>%d <i>чанков рядом с %s<i>.";
-	public static final String CMD_CLAIM_IFRAD_MIN = "<b>If you specify a radius, it must be at least 1.";
-	public static final String CMD_CLAIM_IFRAD_MAX = "<b>The maximum radius allowed is <h>%s<b>.";
+	public static final String CMD_CLAIM_IFRAD_MIN = "<b>Если вы указываете радиус, он должен быть не менее 1.";
+	public static final String CMD_CLAIM_IFRAD_MAX = "<b>Максимально доступный радиус <h>%s<b>.";
 	
-	public static final String CMD_SETHOME_INSIDEONLY = "<b>Sorry, your faction home can only be set inside your own claimed territory.";
-	public static final String CMD_SETHOME_SET = "%s<i> set the home for your faction. You can now use:";
-	public static final String CMD_SETHOME_FMSG = "<i>You have set the home for ";
+	public static final String CMD_SETHOME_INSIDEONLY = "<b>Извините, но дом фракции можно установить только на захваченной вами территории.";
+	public static final String CMD_SETHOME_SET = "%s<i> установил дом для вашей фракции. Теперь вы можете телепортироваться на дом фракции:";
+	public static final String CMD_SETHOME_FMSG = "<i>Вы установили дом для фракции ";
 	
 	public static final String CMD_SETPOWER_ALREADY = "%s's <i>power is already <h>%.2f<i>.";
 	public static final String CMD_SETPOWER_YOUCHANGED = "<i>You changed %s's <i>power from <h>%.2f <i>to <h>%.2f<i>.";
 	public static final String CMD_SETPOWER_HECHANGED = "%s <i>changed your power from <h>%.2f <i>to <h>%.2f<i>.";
 	
-	public static final String CMD_STATUS_OF = "<i>Status of %s<i>.";
-	public static final String CMD_STATUS_POWER = "<art>Power: %s%.0f<gray>/<green>%.0f";
-	public static final String CMD_STATUS_ONLIINE = "<lime>Online right now.";
-	public static final String CMD_STATUS_LAST = "<i>Last active: ";
+	public static final String CMD_STATUS_OF = "<i>Статистика %s<i>.";
+	public static final String CMD_STATUS_POWER = "<art>Сила: %s%.0f<gray>/<green>%.0f";
+	public static final String CMD_STATUS_ONLIINE = "<lime>Сейчас онлайн.";
+	public static final String CMD_STATUS_LAST = "<i>Последний раз был онлайн: ";
 	
 	public static final String CMD_TT_ON = "<g>ON";
 	public static final String CMD_TT_OFF = "<b>OFF";
 	public static final String CMD_TT_ALREADY = "<i>Territory titles is already %s<i>.";
 	public static final String CMD_TT_SET = "<i>Territory titles is now %s<i>.";
 	
-	public static final String CMD_TITLE_CANTHIGH = "<b>You can not edit titles for higher ranks.";
-	public static final String CMD_TITLE_CHANGED = "%s<i> changed a title: %s";
+	public static final String CMD_TITLE_CANTHIGH = "<b>Вы не можете меня титул игрока выше вас рангом.";
+	public static final String CMD_TITLE_CHANGED = "%s<i> сменил титул: %s";
 	
 	public static final String CMD_UNSETHOME_ALREADY = "<i>%s <i>does already not have a home.";
 	public static final String CMD_UNSETHOME_FMSG = "%s<i> unset the home for your faction.";
