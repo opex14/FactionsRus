@@ -79,7 +79,7 @@ public class LngT {
 	// f create
 	public static final String CMD_CREATE_USED = "<b>Название занято.";
 	public static final String CMD_CREATE_CRE = "<i>Вы создали фракцию %s";
-	public static final String CMD_CREATE_CAN = "Теперь вы можете: ";
+	public static final String CMD_CREATE_CAN = "Теперь вы можете уствновить девиз фракции: ";
 	public static final String CMD_CREATE_GLOBAL = " создал новую фракцию: ";
 	
 	//f desc
@@ -133,42 +133,42 @@ public class LngT {
 	public static final String CMD_INVITE_REMOVE_REVOKED = "%s<i> забрал ваше приглашение <h>%s<i>.";
 	public static final String CMD_INVITE_REMOVE_REVOKED_F = "%s<i> забрал у %s's<i> приглашение.";
 	public static final String CMD_INVITE_REMOVE_WINV = "Может быть вы хотите пригласить его. ";
-	public static final String CMD_INVITE_REMOVE_INFMSG = "%s <i>is not invited to %s<i>.";
-	public static final String CMD_INVITE_REMOVE_FREV = "%s<i> revoked ";
-	public static final String CMD_INVITE_REMOVE_FPEN = "<i>all <h>%s <i>pending invitations";
-	public static final String CMD_INVITE_REMOVE_FROM = " from your faction.";
+	public static final String CMD_INVITE_REMOVE_INFMSG = "%s <i>не приглашен в %s<i>.";
+	public static final String CMD_INVITE_REMOVE_FREV = "%s<i> забрал ";
+	public static final String CMD_INVITE_REMOVE_FPEN = "<i>все <h>%s <i>приглашённый игроки";
+	public static final String CMD_INVITE_REMOVE_FROM = " из вашей фракции.";
 	
-	public static final String CMD_JOIN_NOPERM = "<b>You do not have permission to move other players into a faction.";
+	public static final String CMD_JOIN_NOPERM = "<b>У вас нет доступа для переноса игроков в другую фракцию.";
 	public static final String CMD_JOIN_ARE = " are";
 	public static final String CMD_JOIN_IS = " is";
-	public static final String CMD_JOIN_ALRM = " already a member of ";
-	public static final String CMD_JOIN_LIMIT = " <b>!<white> The faction %s is at the limit of %d members, so %s cannot currently join.";
-	public static final String CMD_JOIN_MUST = " must leave ";
+	public static final String CMD_JOIN_ALRM = " уже состоит в ";
+	public static final String CMD_JOIN_LIMIT = " <b>!<white> У фракции %s есть лимит %d игроков, поэтому %s вы не можете присоединится.";
+	public static final String CMD_JOIN_MUST = " должен покинуть ";
 	public static final String CMD_JOIN_YOUR = "your";
 	public static final String CMD_JOIN_THEIR = "their";
 	public static final String CMD_JOIN_CURRENT = " current faction first.";
-	public static final String CMD_JOIN_NEGPOW = "<b>%s cannot join a faction with a negative power level.";
-	public static final String CMD_JOIN_INVREQ = "<i>This faction requires invitation.";
-	public static final String CMD_JOIN_TRIED = "%s<i> tried to join your faction.";
-	public static final String CMD_JOIN_MOVEDYOU = "<i>%s <i>moved you into the faction %s<i>.";
-	public static final String CMD_JOIN_FJOINED = "<i>%s <i>joined <lime>your faction<i>.";
-	public static final String CMD_JOIN_PJOINED = "<i>%s <i>successfully joined %s<i>.";
-	public static final String CMD_JOIN_LOG = "%s joined the faction %s.";
-	public static final String CMD_JOIN_LOGMV = "%s moved the player %s into the faction %s.";
+	public static final String CMD_JOIN_NEGPOW = "<b>%s не может присоединится к фракции из-за негативное силы.";
+	public static final String CMD_JOIN_INVREQ = "<i>Для вступления в эту фракцию нужно приглашение.";
+	public static final String CMD_JOIN_TRIED = "%s<i> попытался присоединиться к вашей фракции.";
+	public static final String CMD_JOIN_MOVEDYOU = "<i>%s <i>перенес вас в фракцию %s<i>.";
+	public static final String CMD_JOIN_FJOINED = "<i>%s <i>присоединился <lime>к вашей фракции<i>.";
+	public static final String CMD_JOIN_PJOINED = "<i>%s <i>успешно присоединился %s<i>.";
+	public static final String CMD_JOIN_LOG = "%s присоединился к фракции %s.";
+	public static final String CMD_JOIN_LOGMV = "%s перенес игрока %s в фракцию %s.";
 
-	public static final String CMD_KICK_YOURSELFT = "<b>You can't kick yourself.";
-	public static final String CMD_KICK_MIGHT = "You might want to: ";
-	public static final String CMD_KICK_LEADER = "<b>The leader cannot be kicked.";
-	public static final String CMD_KICK_HRANK = "<b>You can't kick people of higher rank than yourself.";
-	public static final String CMD_KICK_SRANK = "<b>You can't kick people of the same rank as yourself.";
-	public static final String CMD_KICK_POWERPOS = "<b>You can't kick that person until their power is positive.";
-	public static final String CMD_KICK_FKICKED = "%s<i> kicked %s<i> from the faction! :O";
-	public static final String CMD_KICK_PKICKED = "%s<i> kicked you from %s<i>! :O";
-	public static final String CMD_KICK_YKICKED = "<i>You kicked %s<i> from the faction %s<i>!";
-	public static final String CMD_KICK_KICKED = " kicked ";
-	public static final String CMD_KICK_FROMF = " from the faction ";
+	public static final String CMD_KICK_YOURSELFT = "<b>Вы не можете кикнуть себя.";
+	public static final String CMD_KICK_MIGHT = "Может быть вы хотите: ";
+	public static final String CMD_KICK_LEADER = "<b>Вы не можете выгнать лидера фракции.";
+	public static final String CMD_KICK_HRANK = "<b>Вы не можете выгнать игрока выше рангом.";
+	public static final String CMD_KICK_SRANK = "<b>Вы не можете выгнать игрока вашего ранга.";
+	public static final String CMD_KICK_POWERPOS = "<b>Вы не можете выгнать этого игрока пока его сила негативна.";
+	public static final String CMD_KICK_FKICKED = "%s<i> выгнал %s<i> из фракции! :O";
+	public static final String CMD_KICK_PKICKED = "%s<i> выгнал вас из %s<i>! :O";
+	public static final String CMD_KICK_YKICKED = "<i>Вы выгнали %s<i> из фракции %s<i>!";
+	public static final String CMD_KICK_KICKED = " выгнан ";
+	public static final String CMD_KICK_FROMF = " из фракции ";
 	
-	public static final String CMD_LIST_FLIST = "Faction List";
+	public static final String CMD_LIST_FLIST = "Список Фракций";
 	public static final String CMD_LIST_FLESS = "<i>Factionless<i> %d online";
 	public static final String CMD_LIST_RSTR = "%s<i> %d/%d online, %d/%d/%d";
 	
