@@ -17,53 +17,53 @@ public class LngT {
 	public static final String MAIN_PLON = "<a>Игроки онлайн (%s):";
 	public static final String MAIN_PLOFF = "<a>Игроки офлайн (%s):";
 	public static final String MAIN_CDIS = "<b>Land claiming is disabled in <h>%s<b>.";
-	public static final String MAIN_CMEM = "<b>Factions must have at least <h>%s<b> members to claim land.";
+	public static final String MAIN_CMEM = "<b>В клане должно быть минимум <h>%s<b> чтобы захватить территорию.";
 	public static final String MAIN_CMAX = "<b>Достигнут предел. Вы не можете захватить больше земли";
 	public static final String MAIN_CPOW = "<b>Недостаточно силы для захвата территории.";
 	public static final String MAIN_CCONE = "<b>You can only claim additional land which is connected to your first claim or controlled by another faction!";
 	public static final String MAIN_CCON = "<b>You can only claim additional land which is connected to your first claim!";
-	public static final String MAIN_COTH = "<b>You may not claim land from others.";
-	public static final String MAIN_CREL = "<b>You can't claim this land due to your relation with the current owner.";
+	public static final String MAIN_COTH = "<b>Вы не можете захватывать территорию других кланов.";
+	public static final String MAIN_CREL = "<b>Вы не можете захватить эту территорию из-за дружественных отношений с данной фракцией.";
 	public static final String MAIN_CSTR = "%s<i> owns this land and is strong enough to keep it.";
-	public static final String MAIN_CBOR = "<b>You must start claiming land at the border of the territory.";
-	public static final String MAIN_AST = "<i>You have standard access to this area.";
+	public static final String MAIN_CBOR = "<b>Вы должны начинать захват территории с края привата.";
+	public static final String MAIN_AST = "<i>У вас стандартные права на этой территории.";
 	public static final String MAIN_AEL = "<g>You have elevated access to this area.";
-	public static final String MAIN_AED = "<b>You have decreased access to this area.";
-	public static final String MAIN_DLOST = "<i>You didn't lose any power since the territory you died in works that way.";
+	public static final String MAIN_AED = "<b>У вас нет прав на данной территории.";
+	public static final String MAIN_DLOST = "<i>Вы не теряете силу умирая на данной территории.";
 	public static final String MAIN_DLOSW = "<i>You didn't lose any power due to the world you died in.";
-	public static final String MAIN_YPOW = "<i>Your power is now <h>%.2f / %.2f";
+	public static final String MAIN_YPOW = "<i>Теперь ваша сила <h>%.2f / %.2f";
 	public static final String MAIN_PVPDIS = "<i>PVP запрещено в %s.";
-	public static final String MAIN_HFJ = "<i>You can't hurt other players until you join a faction.";
-	public static final String MAIN_HOFJ = "<i>You can't hurt players who are not currently in a faction.";
-	public static final String MAIN_HC = "<i>You can't hurt %s<i>.";
-	public static final String MAIN_HTE = "<i>You can't hurt %s<i> in their own territory unless you declare them as an enemy.";
-	public static final String MAIN_TH = "%s<i> tried to hurt you.";
-	public static final String MAIN_EDR = "<i>Enemy damage reduced by <rose>%s<i>.";
-	public static final String MAIN_YCUP = "<b>You can't use \"<h>/%s<b>\" as member of a permanent faction.";
-	public static final String MAIN_CTER = "<b>You can't use \"<h>/%s<b>\" in %s territory.";
+	public static final String MAIN_HFJ = "<i>Вы не можете атаковать других игроков, пока не вступите в клан.";
+	public static final String MAIN_HOFJ = "<i>Вы не можете атаковать игроков у которых нет клана.";
+	public static final String MAIN_HC = "<i>Вы не можете навредить %s<i>.";
+	public static final String MAIN_HTE = "<i>Вы не можете навредить %s<i> на его территории пока не обьявите войну.";
+	public static final String MAIN_TH = "%s<i> попытался вас ударить.";
+	public static final String MAIN_EDR = "<i>Урон по врагу снижен на <rose>%s<i>.";
+	public static final String MAIN_YCUP = "<b>Вы не можете использовать \"<h>/%s<b>\" как член фракции.";
+	public static final String MAIN_CTER = "<b>Вы не можете использовать \"<h>/%s<b>\" на %s территории.";
 	public static final String MAIN_PBLD = "<b>It is painful to build in the territory of %s<b>.";
 	
 	//MPlayer entity class
 	public static final String PLAYER_MOVED = "<i>setFactionId moved <h>%s <i>aka <h>%s <i>from <h>%s <i>aka <h>%s <i>to <h>%s <i>aka <h>%s<i>.";
 	public static final String PLAYER_REMOVE_PL = "Игрок ";
-	public static final String PLAYER_REMOVE_REM = " was auto-removed due to inactivity.";
-	public static final String PLAYER_LEAVE_LEADER = "<b>You must give the leader role to someone else first.";
-	public static final String PLAYER_LEAVE_NEGPOWER = "<b>You cannot leave until your power is positive.";
-	public static final String PLAYER_LEAVE_LEFT = "%s<i> left %s<i>.";
-	public static final String PLAYER_LEAVE_LOG = " left the faction: ";
-	public static final String PLAYER_LEAVE_DISBAND = "%s <i>was disbanded since you were the last player.";
-	public static final String PLAYER_LEAVE_DISBAND_ONE = "The faction ";
+	public static final String PLAYER_REMOVE_REM = " Был кикнут за долгое афк.";
+	public static final String PLAYER_LEAVE_LEADER = "<b>Вначале вы должны передать лидера кому-то другому.";
+	public static final String PLAYER_LEAVE_NEGPOWER = "<b>Вы не можете выйти пока у вас позитивная сила.";
+	public static final String PLAYER_LEAVE_LEFT = "%s<i> Покинул %s<i>.";
+	public static final String PLAYER_LEAVE_LOG = " Покинул клан: ";
+	public static final String PLAYER_LEAVE_DISBAND = "%s <i>Фракция была распущена, так как вы были последним игроком.";
+	public static final String PLAYER_LEAVE_DISBAND_ONE = "Клан ";
 	public static final String PLAYER_LEAVE_DISBAND_TWO = " was disbanded due to the last player ";
-	public static final String PLAYER_LEAVE_DISBAND_THREE = " leaving.";
+	public static final String PLAYER_LEAVE_DISBAND_THREE = " Покидает.";
 	public static final String PLAYER_CLAIM_CHUNK = "<h>%s<i> %s <h>%d <i>chunk %s<i>.";
 	public static final String PLAYER_CLAIM_CHUNKS = "<h>%s<i> %s <h>%d <i>chunks near %s<i>.";
-	public static final String PLAYER_CLAIM_OWNS = "%s<i> already owns this land.";
+	public static final String PLAYER_CLAIM_OWNS = "%s<i> Эта территория уже захвачена.";
 	
 	//TODO Econ integration class
-	public static final String ECON_BALANCE = "<a>%s's<i> balance is <h>%s<i>.";
-	public static final String ECON_LACK_WITHDRAW = "<h>%s<i> lack permission to withdraw money from <h>%s<i>.";
-	public static final String ECON_LACK_DEPOSIT = "<h>%s<i> lack permission to deposit money to <h>%s<i>.";
-	public static final String ECON_CANTAFORD = "<h>%s<b> can't afford to transfer <h>%s<b> to %s<b>.";
+	public static final String ECON_BALANCE = "<a>%s's<i> вашь баланс <h>%s<i>.";
+	public static final String ECON_LACK_WITHDRAW = "<h>%s<i> Не достаточно прав чтоб забирать деньги из <h>%s<i>.";
+	public static final String ECON_LACK_DEPOSIT = "<h>%s<i> Не достаточно прав для вклада денег <h>%s<i>.";
+	public static final String ECON_CANTAFORD = "<h>%s<b> Не достаточно денег для перевода <h>%s<b> to %s<b>.";
 	public static final String ECON_UNABLE = "Unable to transfer %s<b> to <h>%s<b> from <h>%s<b>.";
 	public static final String ECON_TRANS = "<h>%s<i> was transfered from <h>%s<i> to <h>%s<i>.";
 	public static final String ECON_GAVE = "<h>%s<i> <h>gave %s<i> to <h>%s<i>.";
@@ -86,7 +86,7 @@ public class LngT {
 	public static final String CMD_DESC_SET = "<i>%s <i>сменил девиз вашей фракции на:\n%s";
 	
 	
-	public static final String CMD_DISBAND_PERM = "<i>This faction is designated as permanent, so you cannot disband it.";
+	public static final String CMD_DISBAND_PERM = "<i>Данную фракцию нельзя распустить.";
 	public static final String CMD_DISBAND_OK = "<h>%s<i> распустил вашу фракцию.";
 	public static final String CMD_DISBAND_YOU = "<i>Вы распустили <h>%s<i>.";
 	public static final String CMD_DISBAND_OK_GLOBAL = "<i>Фракция <h>%s <i>(<h>%s<i>) была распущена игроком <h>%s<i>.";
@@ -97,42 +97,42 @@ public class LngT {
 	public static final String CMD_FLAG_LIST_AVAL = "Available Faction Flags";
 	//Список флагов в MFlag.java
 	
-	public static final String CMD_FLAG_SET_NE = "<b>The flag <h>%s <b>is not editable.";
-	public static final String CMD_FLAG_SET_AL = "%s <i>already has %s <i>set to %s<i>.";
-	public static final String CMD_FLAG_SET_SET = "<h>%s <i>set a flag for <h>%s<i>.";
-	public static final String CMD_FLAG_SET_GLOBAL = "<h>%s <i>set a flag for <h>%s<i>.";
+	public static final String CMD_FLAG_SET_NE = "<b>Этот флаг <h>%s <b>нельзя изменять.";
+	public static final String CMD_FLAG_SET_AL = "%s <i>уже имеет %s <i>set to %s<i>.";
+	public static final String CMD_FLAG_SET_SET = "<h>%s <i>установить флаг для <h>%s<i>.";
+	public static final String CMD_FLAG_SET_GLOBAL = "<h>%s <i>установить флаг для <h>%s<i>.";
 	
-	public static final String CMD_FLAG_SHOW_FF = "Flag for ";
+	public static final String CMD_FLAG_SHOW_FF = "Флаг для ";
 
-	public static final String CMD_HOME_OFF = "<b>Sorry, the ability to teleport to Faction homes is disabled on this server.";
-	public static final String CMD_HOME_FOR = "home for ";
-	public static final String CMD_HOME_HOMELESS = "<b>%s <b>does not have a home.";
-	public static final String CMD_HOME_SHOULD = "<i>You should:";
-	public static final String CMD_HOME_ENEMY = "<b>You cannot teleport to %s <b>while in the territory of an enemy faction.";
-	public static final String CMD_HOME_WORLD = "<b>You cannot teleport to %s <b>while in a different world.";
-	public static final String CMD_HOME_NEAR = "<b>You cannot teleport to %s <b>while an enemy is within %f blocks of you.";
+	public static final String CMD_HOME_OFF = "<b>Извините, телепортация домой запрещена на этом сервере.";
+	public static final String CMD_HOME_FOR = "Дом для ";
+	public static final String CMD_HOME_HOMELESS = "<b>%s <b>не имеет дома.";
+	public static final String CMD_HOME_SHOULD = "<i>Вы должны:";
+	public static final String CMD_HOME_ENEMY = "<b>Вы не можете телепортироваться %s <b>пока находитесь на вражеской территории.";
+	public static final String CMD_HOME_WORLD = "<b>Вы не можете телепортироваться %s <b>пока находитесь в другом мире.";
+	public static final String CMD_HOME_NEAR = "<b>Вы не можете телепортироваться %s <b>пока враг находится в %f блоков от вас.";
 	
-	public static final String CMD_INVITE_MEMBER = "%s<i> is already a member of %s<i>.";
-	public static final String CMD_INVITE_YOU = "%s<i> invited you to %s<i>.";
-	public static final String CMD_INVITE_INVYR = "%s<i> invited %s<i> to your faction.";
-	public static final String CMD_INVITE_CLICK = "<i>Click to <c>%s<i>.";
-	public static final String CMD_INVITE_MREM = "You might want to remove him. ";
-	public static final String CMD_INVITE_CLICKTO = "Click to ";
-	public static final String CMD_INVITE_ALREADY = "%s <i>is already invited to %s<i>.";
+	public static final String CMD_INVITE_MEMBER = "%s<i> уже состоит в %s<i>.";
+	public static final String CMD_INVITE_YOU = "%s<i> пригласил вас в %s<i>.";
+	public static final String CMD_INVITE_INVYR = "%s<i> пригласил %s<i> в вашу фракцию.";
+	public static final String CMD_INVITE_CLICK = "<i>Нажмите чтобы отменить <c>%s<i>.";
+	public static final String CMD_INVITE_MREM = "Может быть вы хотите убрать его. ";
+	public static final String CMD_INVITE_CLICKTO = "Нажмите для ";
+	public static final String CMD_INVITE_ALREADY = "%s <i>Уже приглашен в %s<i>.";
 	
-	public static final String CMD_INVITE_LIST_LIST = "Invited Players List";
+	public static final String CMD_INVITE_LIST_LIST = "Список приглашённых игроков";
 	public static final String CMD_INVITE_LIST_ARE = "are";
 	public static final String CMD_INVITE_LIST_IS = "is";
 	public static final String CMD_INVITE_LIST_THE = "the";
 	public static final String CMD_INVITE_LIST_OF = "of";
 	public static final String CMD_INVITE_LIST_IN = "in";
 	
-	public static final String CMD_INVITE_REMOVE_NOTINV = "<b>Your faction has not invited anyone.";
-	public static final String CMD_INVITE_REMOVE_WKICK = "You might want to kick him. ";
-	public static final String CMD_INVITE_REMOVE_ALREADY = "%s<i> is already a member of %s<i>.";
-	public static final String CMD_INVITE_REMOVE_REVOKED = "%s<i> revoked your invitation to <h>%s<i>.";
-	public static final String CMD_INVITE_REMOVE_REVOKED_F = "%s<i> revoked %s's<i> invitation.";
-	public static final String CMD_INVITE_REMOVE_WINV = "You might want to invite him. ";
+	public static final String CMD_INVITE_REMOVE_NOTINV = "<b>Ваша фракция никого не приглашала.";
+	public static final String CMD_INVITE_REMOVE_WKICK = "Может быть вы хотите выгнать его. ";
+	public static final String CMD_INVITE_REMOVE_ALREADY = "%s<i> уже состоит в %s<i>.";
+	public static final String CMD_INVITE_REMOVE_REVOKED = "%s<i> забрал ваше приглашение <h>%s<i>.";
+	public static final String CMD_INVITE_REMOVE_REVOKED_F = "%s<i> забрал у %s's<i> приглашение.";
+	public static final String CMD_INVITE_REMOVE_WINV = "Может быть вы хотите пригласить его. ";
 	public static final String CMD_INVITE_REMOVE_INFMSG = "%s <i>is not invited to %s<i>.";
 	public static final String CMD_INVITE_REMOVE_FREV = "%s<i> revoked ";
 	public static final String CMD_INVITE_REMOVE_FPEN = "<i>all <h>%s <i>pending invitations";
