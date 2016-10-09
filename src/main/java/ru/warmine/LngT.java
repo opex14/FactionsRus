@@ -1,7 +1,7 @@
 package ru.warmine;
 
 public class LngT {
-	//Main
+	//Main test
 	public static final String MAIN_DESC = "Описание";
 	public static final String MAIN_FAGE = "Возраст";
 	public static final String MAIN_FLAG = "Флаги";
